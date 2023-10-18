@@ -3,7 +3,9 @@ import { useState } from "react";
 const App = () => {
   const [count, setCount] = useState(1);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    setCount(e.target.value);
+  };
 
   return (
     <main>

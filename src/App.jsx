@@ -11,6 +11,7 @@ const App = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+    setText(data.slice(0, count));
   };
 
   return (
